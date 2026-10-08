@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="UNIVERSITAS HANG TUAH PEKANBARU"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textColor="#0000FF"
+            android:layout_marginBottom="16dp" />
+
+        <EditText
+            android:id="@+id/edNama"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nama Mahasiswa"
+            android:inputType="textPersonName"
+            android:layout_marginBottom="8dp" />
+
+        <EditText
+            android:id="@+id/edTugas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nilai Tugas"
+            android:inputType="numberDecimal"
+            android:layout_marginBottom="8dp" />
+
+        <EditText
+            android:id="@+id/edKehadiran"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nilai Kehadiran"
+            android:inputType="numberDecimal"
+            android:layout_marginBottom="8dp" />
+
+        <EditText
+            android:id="@+id/edUTS"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nilai UTS"
+            android:inputType="numberDecimal"
+            android:layout_marginBottom="8dp" />
+
+        <EditText
+            android:id="@+id/edUAS"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nilai UAS"
+            android:inputType="numberDecimal"
+            android:layout_marginBottom="16dp" />
+
+        <Button
+            android:id="@+id/btHitung"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hitung Nilai"
+            android:layout_marginBottom="16dp" />
+
+        <EditText
+            android:id="@+id/edNilaiAngka"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nilai Akhir (Angka)"
+            android:focusable="false"
+            android:clickable="false"
+            android:layout_marginBottom="8dp" />
+
+        <EditText
+            android:id="@+id/edNilaiHuruf"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nilai Akhir (Huruf)"
+            android:focusable="false"
+            android:clickable="false" />
+
+    </LinearLayout>
+</ScrollView>

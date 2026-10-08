@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="40dp">
+
+    <EditText
+        android:id="@+id/edNamaPegawai"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nama Pegawai"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/edAlamat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Alamat"
+        android:inputType="textPostalAddress" />
+
+    <EditText
+        android:id="@+id/edUmur"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Umur"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/btnKirim"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Kirim Data" />
+
+</LinearLayout>

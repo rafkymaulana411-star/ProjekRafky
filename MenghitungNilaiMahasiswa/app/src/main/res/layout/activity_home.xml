@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:gravity="center_horizontal">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/logokampus"
+        android:layout_marginBottom="16dp" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/gedungkampus"
+        android:layout_marginBottom="24dp" />
+
+    <Button
+        android:id="@+id/btNilai"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nilai Mahasiswa"
+        android:layout_marginBottom="8dp" />
+
+    <Button
+        android:id="@+id/btPetunjuk"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Petunjuk Penggunaan"
+        android:layout_marginBottom="8dp" />
+
+    <Button
+        android:id="@+id/btTentang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tentang Aplikasi"
+        android:layout_marginBottom="8dp" />
+
+    <Button
+        android:id="@+id/btExit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Keluar" />
+
+</LinearLayout>
